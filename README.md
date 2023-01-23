@@ -1,1 +1,1 @@
-# argo-cd-tutorial
+# kustomize-bs

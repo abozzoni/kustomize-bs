@@ -1,0 +1,17 @@
+# kustomization.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# list of Resource Config to be Applied
+resources:
+- webapp-ns.yaml  
+- webapp-deployment.yaml
+- webapp-route.yaml
+- webapp-svc.yaml
+
+# namespace to deploy all Resources to
+namespace: andrea-ns
+
+# labels added to all Resources
+commonLabels:
+  app: webapp

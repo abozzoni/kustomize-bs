@@ -4,7 +4,7 @@ resources:
 - ../../base
 
 # namespace to deploy all Resources to
-namespace: andrea-nsprod
+namespace: webapp-nsprod
 
 # labels added to all Resources
 commonLabels:

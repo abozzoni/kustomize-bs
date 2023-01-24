@@ -10,7 +10,7 @@ resources:
 - webapp-svc.yaml
 
 # namespace to deploy all Resources to
-namespace: andrea-ns
+namespace: webapp-ns
 
 # labels added to all Resources
 commonLabels:

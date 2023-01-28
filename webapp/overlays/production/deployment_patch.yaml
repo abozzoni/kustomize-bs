@@ -3,4 +3,4 @@
   value: "yellow"
 - op: replace
   path: /spec/replicas
-  value: 4444
+  value: 4
